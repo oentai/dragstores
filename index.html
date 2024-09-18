@@ -1,0 +1,35 @@
+<html>
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel=”icon” href=“/favicon_64.png”>
+ <title>応援隊</title>
+ <style>
+    body {
+      margin: 0;
+      padding: auto;
+      overflow: hidden;
+      height: 100vh;
+      width:100vw;
+    }
+    #ifrm {
+      position:absolute;
+      margin: 0;
+      padding: 0;
+      border: none;
+      width: 100%;
+      height: 100%;
+      z-index:10000;
+    }
+    </style>
+    <script>
+        window.onload=()=>{
+            let url='https://script.google.com/a/oentai/macros/s/AKfycbwlnBqOoNfBupbnbF6yy1XbzNNieoUsqkrYsZwcxB0FnuGyMQ7gSoopnX6MSoL1RlM26Q/exec';
+            document.getElementById('ifrm').src=url+window.location.search;
+        }
+    </script>
+    </head>
+<body>
+
+<iframe id="ifrm" allow="geolocation" src="about:blank" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</body>
+</html>
